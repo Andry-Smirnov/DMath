@@ -1,14 +1,6 @@
 # DMath
 
-******************************************************************************
-*                                                                            *
-*                                 DMATH                                      *
-*                                                                            *
-*              MATHEMATICAL LIBRARY FOR DELPHI, FPC AND LAZARUS              *
-*                                                                            *
-*                      Version 0.80 (February 2011)                          *
-*                                                                            *
-******************************************************************************
+Version 0.80 (February 2011)
 
 AUTHOR : Dr Jean DEBORD
 
