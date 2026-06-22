@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <PathDelim Value="\"/>
+    <Name Value="lmComponents"/>
+    <Type Value="RunAndDesignTime"/>
+    <AddToProjectUsesSection Value="True"/>
+    <Author Value="Nesterov"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="icons"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+      <Parsing>
+        <SyntaxOptions>
+          <CStyleOperator Value="False"/>
+        </SyntaxOptions>
+      </Parsing>
+      <CodeGeneration>
+        <SmartLinkUnit Value="True"/>
+        <Optimizations>
+          <VariablesInRegisters Value="True"/>
+        </Optimizations>
+      </CodeGeneration>
+    </CompilerOptions>
+    <Description Value="Several digital filters implemented as components; TCoordSys: simple component for functions and data visualizations; simple float editing components."/>
+    <License Value="GDP"/>
+    <Version Minor="6" Release="1"/>
+    <Files Count="8">
+      <Item1>
+        <Filename Value="lmcoordsys.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="lmcoordsys"/>
+      </Item1>
+      <Item2>
+        <Filename Value="lmfilters.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="lmfilters"/>
+      </Item2>
+      <Item3>
+        <Filename Value="lmnumericedits.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="lmnumericedits"/>
+      </Item3>
+      <Item4>
+        <Filename Value="lmnumericinputdialogs.pas"/>
+        <UnitName Value="lmnumericinputdialogs"/>
+      </Item4>
+      <Item5>
+        <Filename Value="icons\nv_icons.lrs"/>
+        <Type Value="LRS"/>
+      </Item5>
+      <Item6>
+        <Filename Value="lmpointsvec.pp"/>
+        <UnitName Value="lmPointsVec"/>
+      </Item6>
+      <Item7>
+        <Filename Value="lmnumericinputdialogs.lfm"/>
+        <Type Value="LFM"/>
+      </Item7>
+      <Item8>
+        <Filename Value="lmrecursfilters.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="lmRecursFilters"/>
+      </Item8>
+    </Files>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="lmDSP"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lmRegression"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <CustomOptions Items="ExternHelp" Version="2">
+      <_ExternHelp Items="Count"/>
+    </CustomOptions>
+  </Package>
+</CONFIG>
